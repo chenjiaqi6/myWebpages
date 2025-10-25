@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 请将“陈”替换为你的真实“姓_学号后四位” -->
+    <title>陈_0530_job2</title>
+    <!-- 题目5：核心实现 - 2分钟（120秒）后自动跳转至山东师范大学官网首页 -->
+    <!-- http-equiv="refresh" 实现刷新/跳转，content="120; url=目标链接"，120即2分钟 -->
+    <meta http-equiv="refresh" content="120; url=https://www.sdnu.edu.cn/">
+    <style>
+        /* 题目2样式统一定义，符合格式要求 */
+        .poem-title { font-family: "仿宋", serif; font-size: 6px; color: #81D8D0; }
+        .poem-author { font-family: "隶书", serif; font-size: 5px; color: #EC8136; }
+        .poem-content { font-family: "楷体", serif; font-size: 5px; color: #AE2423; line-height: 1.5; }
+        /* 题目4：不同系别汽车列表标记，匹配要求 */
+        .euro-american { list-style-type: decimal; } /* 欧美系：数字标记 */
+        .japan-korea { list-style-type: upper-alpha; } /* 日韩系：大写字母标记 */
+        .domestic { list-style-type: upper-roman; } /* 国产：大写罗马字母标记 */
+    </style>
+</head>
+<body>
+    <!-- 题目1：六级标题（从h1到h6，内容完全匹配要求） -->
+    <h1>沃尔玛 (Walmart)美国6120亿美元行业零售</h1>
+    <h2>亚马逊 (Amazon)美国5210亿美元行业电商与科技</h2>
+    <h3>国家电网 (State Grid)中国4870亿美元行业公用事业</h3>
+    <h4>沙特阿美 (Saudi Aramco)沙特阿拉伯4030亿美元行业石油能源</h4>
+    <h5>中国石化 (Sinopec)中国4010亿美元行业石化能源</h5>
+    <h6>中国石油 (CNPC)中国3950亿美元行业石化能源</h6>
+
+    <!-- 题目1与题目2分隔：按要求用<p>标签 -->
+    <p></p>
+
+    <!-- 题目2：3首山东诗人诗词（垂直排列，格式合规） -->
+    <div>
+        <!-- 李清照（山东济南）- 《如梦令》 -->
+        <div class="poem-title">如梦令·常记溪亭日暮</div>
+        <div class="poem-author">李清照</div>
+        <div class="poem-content">常记溪亭日暮，沉醉不知归路。<br>兴尽晚回舟，误入藕花深处。<br>争渡，争渡，惊起一滩鸥鹭。</div>
+        <br>
+
+        <!-- 辛弃疾（山东济南）- 《清平乐》 -->
+        <div class="poem-title">清平乐·村居</div>
+        <div class="poem-author">辛弃疾</div>
+        <div class="poem-content">茅檐低小，溪上青青草。<br>醉里吴音相媚好，白发谁家翁媪？<br>大儿锄豆溪东，中儿正织鸡笼。<br>最喜小儿亡赖，溪头卧剥莲蓬。</div>
+        <br>
+
+        <!-- 蒲松龄（山东淄博）- 《客愁》 -->
+        <div class="poem-title">客愁</div>
+        <div class="poem-author">蒲松龄</div>
+        <div class="poem-content">漫说天涯路，羁愁暗自生。<br>孤灯寒照影，秋雨细无声。<br>雁去书难寄，虫鸣夜更清。<br>故园何日到，搔首问归程。</div>
+    </div>
+
+    <!-- 题目2与题目3分隔：按要求用<p>标签 -->
+    <p></p>
+
+    <!-- 题目3：秋季丰收食物（各8种，标记正确） -->
+    <h3>秋天丰收的食物清单</h3>
+    <!-- 水果：square（方形）标记 -->
+    <h4>一、丰收水果</h4>
+    <ul style="list-style-type: square;">
+        <li>苹果（脆甜耐储，秋季主打水果）</li>
+        <li>秋月梨（汁多润肺，秋季特色梨品种）</li>
+        <li>阳光玫瑰葡萄（甜度高，果肉饱满）</li>
+        <li>软籽石榴（籽甜可食，秋季应季）</li>
+        <li>红心柚子（果肉清甜，维生素丰富）</li>
+        <li>脆柿（口感爽脆，不涩口）</li>
+        <li>徐香猕猴桃（维C含量高，酸甜适中）</li>
+        <li>新鲜山楂（可做蜜饯，酸甜开胃）</li>
+    </ul>
+
+    <!-- 蔬菜：disc（实心圆形）标记 -->
+    <h4>二、丰收蔬菜</h4>
+    <ul style="list-style-type: disc;">
+        <li>秋白菜（清甜爽口，适合储备）</li>
+        <li>胡萝卜（营养丰富，可炒可炖）</li>
+        <li>烟薯（香甜软糯，蒸烤最佳）</li>
+        <li>铁棍山药（粉糯细腻，滋补佳品）</li>
+        <li>贝贝南瓜（口感绵密，适合清蒸）</li>
+        <li>秋莲藕（鲜嫩多汁，清炒炖汤皆可）</li>
+        <li>西兰花（脆嫩营养，秋季产量高）</li>
+        <li>青萝卜（清爽解腻，生吃熟吃都行）</li>
+    </ul>
+
+    <!-- 荤类：circle（空心圆形）标记 -->
+    <h4>三、丰收荤类食物</h4>
+    <ul style="list-style-type: circle;">
+        <li>大闸蟹（蟹黄饱满，秋季鲜味担当）</li>
+        <li>清蒸鲈鱼（刺少肉嫩，秋季最肥美）</li>
+        <li>老鸭（脂肪适中，适合炖滋补汤）</li>
+        <li>黄牛腱子肉（肉质紧实，卤制最佳）</li>
+        <li>山羊肉（温补驱寒，秋末应季）</li>
+        <li>土鲫鱼（汤鲜味美，秋季产卵后肥美）</li>
+        <li>散养土鸡（营养浓郁，适合炖鸡汤）</li>
+        <li>海白虾（Q弹鲜嫩，秋季大量上市）</li>
+    </ul>
+
+    <!-- 题目3与题目4分隔：按要求用<p>标签 -->
+    <p></p>
+
+    <!-- 题目4：分系别汽车（24种，价格从高到低，标记匹配） -->
+    <h3>各系别高端汽车清单（价格从高到低排序）</h3>
+    <!-- 欧美系：数字标记 -->
+    <h4>一、欧美系汽车</h4>
+    <ol class="euro-american">
+        <li>劳斯莱斯幻影（800-1500万元，顶级豪华轿车）</li>
+        <li>宾利慕尚（500-900万元，英伦豪华旗舰）</li>
+        <li>法拉利SF90 Stradale（480-600万元，混动超跑）</li>
+        <li>兰博基尼Urus（320-400万元，豪华性能SUV）</li>
+        <li>保时捷911 Turbo S（240-300万元，经典运动跑车）</li>
+        <li>奔驰迈巴赫S 680（210-280万元，豪华商务轿车）</li>
+        <li>宝马M8 Competition（190-230万元，高性能轿跑）</li>
+        <li>奥迪RS e-tron GT（140-180万元，高端电动轿跑）</li>
+    </ol>
+
+    <!-- 日韩系：大写字母标记 -->
+    <h4>二、日韩系汽车</h4>
+    <ol class="japan-korea">
+        <li>雷克萨斯LS 500h 臻越版（140-160万元，日系顶级豪华）</li>
+        <li>丰田世纪（120-150万元，日本皇室御用车型）</li>
+        <li>英菲尼迪QX80 巅峰版（110-130万元，大型豪华SUV）</li>
+        <li>讴歌NSX Type S（100-120万元，日系混动超跑）</li>
+        <li>日产GT-R Nismo（90-110万元，“东瀛战神”）</li>
+        <li>雷克萨斯LX 600 巅峰特别版（85-100万元，豪华越野SUV）</li>
+        <li>现代Genesis G90 旗舰版（70-85万元，韩系顶级豪华）</li>
+        <li>三菱帕杰罗V97 尊贵版（50-60万元，经典硬派越野）</li>
+    </ol>
+
+    <!-- 国产系：大写罗马字母标记 -->
+    <h4>三、国产汽车</h4>
+    <ol class="domestic">
+        <li>仰望U8 豪华版（109.8万元，国产高端新能源硬派SUV）</li>
+        <li>蔚来ES8 创始版（60-75万元，高端智能电动SUV）</li>
+        <li>理想L9 Max（45-50万元，大型智能家庭SUV）</li>
+        <li>小鹏G9 650X Performance（40-45万元，高端智能电动SUV）</li>
+        <li>极氪001 FR（38-42万元，高性能电动猎装轿跑）</li>
+        <li>红旗HS7 3.0T 旗舰版（35-40万元，国产豪华中大型SUV）</li>
+        <li>比亚迪汉EV 创世版610KM四驱（30-33万元，高端电动轿车）</li>
+        <li>岚图追光PHEV 旗舰版（28-32万元，高端插混轿车）</li>
+    </ol>
+
+    <!-- 题目5功能说明（非必需，仅辅助验证，可删除） -->
+    <p style="margin-top: 20px; font-size: 14px;">提示：本页面将在2分钟后自动跳转至山东师范大学官网，若未跳转可点击链接：<a href="https://www.sdnu.edu.cn/" target="_blank">山东师范大学首页</a></p>
+</body>
+</html>
